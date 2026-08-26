@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Card from "./components/Card";
 import "./App.css"
 
@@ -18,6 +19,7 @@ function App() {
           title="Employment"
           description="AI may automate some jobs while creating others."
       />
+      <Footer />
     </div>
 
   );

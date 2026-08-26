@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-  background-color: navy;
+  background-color: rgb(107, 107, 224);
   color: white;
   padding: 3rem;
   text-align: center;
@@ -19,6 +19,14 @@ body {
 .card {
     flex: 1;
     background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px lightgray;
+
+}
+.footer {
+    flex: 1;
+    background-color: rgb(137, 176, 195);
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px lightgray;
