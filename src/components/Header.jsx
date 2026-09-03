@@ -4,8 +4,7 @@ function Header() {
       <h2>Artificial Intelligence of Autonomous Cars</h2>
 
       <p>
-        Exploring how AI affects education, healthcare,
-        business, and everyday life.
+        Exploring the environmental, cultural, and economic impacts of AI-powered self-driving vehicles and their role in shaping the future of transportation.
       </p>
     </section>
   );

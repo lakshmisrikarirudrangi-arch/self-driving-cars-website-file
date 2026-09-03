@@ -6,13 +6,13 @@ body {
 
 .header {
   background-color: rgb(107, 107, 224);
-  color: white;
+  color: black;
   padding: 3rem;
   text-align: center;
 }
 .header h2 {
 font-size: 2.5rem;
-padding: 10rem;
+padding: 4rem;
 
 }
 
@@ -33,22 +33,28 @@ padding: 10rem;
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   justify-content: center;
-  gap: 1 rem;
+  gap: 1rem;
   padding: 1rem;
-  background-color: white;
+  background-color: rgb(107, 107, 224);
 }
+
 .navbar button {
-  color: white;
+  background-color: white;
+  color: rgb(107, 107, 224);
+  border: 2px solid white;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
-  background-color: rgb(107, 107, 224);
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .navbar button:hover {
   background-color: rgb(84, 84, 201);
+  color: white;
 }
 
 .environmental {
@@ -60,7 +66,7 @@ padding: 10rem;
 }
 
 .environmental h2 {
-  color: rgb(107, 107, 224);
+  color: black;
 }
 
 .cultural {
@@ -72,7 +78,7 @@ padding: 10rem;
 }
 
 .cultural h2 {
-  color: rgb(107, 107, 224);
+  color:black;
 }
 
 .economic {
@@ -84,11 +90,11 @@ padding: 10rem;
 }
 
 .economic h2 {
-  color: rgb(107, 107, 224);
+  color: black;
 }
 .header {
   background: linear-gradient(135deg, rgb(107, 107, 224), rgb(78, 78, 180));
-  color: white;
+  color: black;
   padding: 5rem 2rem;
   text-align: center;
 }
@@ -96,23 +102,4 @@ padding: 10rem;
 .header h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
-}
-.economic-page h3 {
-  font-size: 1.4rem;
-  color: #8b6f47;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.content-section p,
-.economic-page p,
-.economic-page li {
-  font-size: 1.05rem;
-  line-height: 1.8;
-}
-
-.economic-page {
-  padding: 30px 20px 60px;
-  background: #f7f2e8;
-  color: #2f2a24;
 }

@@ -1,7 +1,8 @@
 function Footer() {
   return (
     <section className="footer">
-      <h3> Made by Lakshmi S Rudrangi </h3>
+      <h3> Artificial Inteligence in Autonomous Cars </h3>
+      <p>Made by Lakshmi S Rudrangi</p>
     </section>
   );
 }

@@ -14,17 +14,18 @@ function App() {
   const [currentPage, setCurrentPage] = useState("home");
   return (
     <div>
-      
+    <Navbar setCurrentPage={setCurrentPage}/>   
     <Header />
-      <Navbar setCurrentPage={setCurrentPage}/>
+
 
       {currentPage == "economic" && <Economic />}
       {currentPage == "environmental" && <Environmental />}
       {currentPage == "cultural" && <Cultural />}
       {currentPage == "solutions" && <Solutions />}
+  
 
     
-      <Footer />
+    <Footer />
     </div>
 
   );
