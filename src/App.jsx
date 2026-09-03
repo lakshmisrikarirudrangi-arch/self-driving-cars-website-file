@@ -5,7 +5,9 @@ import Navbar from "./components/Navbar";
 import "./App.css"
 import{ useState } from "react"
 import Home from "./pages/Home";
-import Impacts from "./pages/Impacts";
+import Environmental from "./pages/Environmental";
+import Economic from "./pages/Economic";
+import Cultural from "./pages/Cultural";
 import Solutions from "./pages/Solutions";
 
 function App() {
@@ -16,8 +18,9 @@ function App() {
     <Header />
       <Navbar setCurrentPage={setCurrentPage}/>
 
-      {currentPage == "home" && <Home />}
-      {currentPage == "impacts" && <Impacts />}
+      {currentPage == "economic" && <Economic />}
+      {currentPage == "environmental" && <Environmental />}
+      {currentPage == "cultural" && <Cultural />}
       {currentPage == "solutions" && <Solutions />}
 
     
