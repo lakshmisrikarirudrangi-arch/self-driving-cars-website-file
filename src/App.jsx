@@ -9,6 +9,8 @@ import Environmental from "./pages/Environmental";
 import Economic from "./pages/Economic";
 import Cultural from "./pages/Cultural";
 import Solutions from "./pages/Solutions";
+import About from "./pages/About";
+import History from "./pages/History";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home");
@@ -22,9 +24,12 @@ function App() {
       {currentPage == "environmental" && <Environmental />}
       {currentPage == "cultural" && <Cultural />}
       {currentPage == "solutions" && <Solutions />}
+      {currentPage == "about" && <About />}
+      {currentPage == "history" && <History />}
   
 
-    
+    <About />
+    <History />
     <Footer />
     </div>
 

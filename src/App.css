@@ -2,14 +2,32 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
+  color: black;
 }
 
 .header {
-  background-color: rgb(107, 107, 224);
-  color: black;
+  background-image: url("./assets/car.jpg");
+
   padding: 3rem;
   text-align: center;
 }
+.header {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("./assets/car.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
 .header h2 {
 font-size: 2.5rem;
 padding: 4rem;
@@ -23,13 +41,14 @@ padding: 4rem;
 }
 .footer {
     flex: 1;
-    background-color: rgb(137, 176, 195);
+    background-color: #cd9777;
     padding: 1rem;
-    border-radius: 10px;
     box-shadow: 0 2px 5px lightgray;
-    font-color: black
-    
+    color: black;
+}
 
+.footer h2 {
+    color: black;
 }
 
 .navbar {
@@ -40,12 +59,12 @@ padding: 4rem;
   justify-content: center;
   gap: 1rem;
   padding: 1rem;
-  background-color: rgb(107, 107, 224);
+  background-color: #cd9777;
 }
 
 .navbar button {
   background-color: white;
-  color: rgb(107, 107, 224);
+  color: black;
   border: 2px solid white;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
@@ -53,15 +72,14 @@ padding: 4rem;
 }
 
 .navbar button:hover {
-  background-color: rgb(84, 84, 201);
+  background-color: #deab90;
   color: white;
 }
 
 .environmental {
-  background-color:white;
-  margin: 1rem;
+  background-color: #2B4141;
+  color: black;
   padding: 2rem;
-  border-radius: 10px;
   box-shadow: 0 2px5px lightgray;
 }
 
@@ -70,11 +88,10 @@ padding: 4rem;
 }
 
 .cultural {
-  background-color:white;
-  margin: 1rem;
+  background-color: #2B4141;
   padding: 2rem;
-  border-radius: 10px;
   box-shadow: 0 2px5px lightgray;
+  color: black;
 }
 
 .cultural h2 {
@@ -82,19 +99,17 @@ padding: 4rem;
 }
 
 .economic {
-  background-color:white;
-  margin: 1rem;
+  background-color:#2B4141;
   padding: 2rem;
-  border-radius: 10px;
   box-shadow: 0 2px5px lightgray;
+  color: black;
 }
 
 .economic h2 {
   color: black;
 }
 .header {
-  background: linear-gradient(135deg, rgb(107, 107, 224), rgb(78, 78, 180));
-  color: black;
+
   padding: 5rem 2rem;
   text-align: center;
 }
@@ -102,4 +117,77 @@ padding: 4rem;
 .header h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
+}
+
+.about {
+  background-color:#8a5a44;
+  padding: 2rem;
+  color: black;
+}
+
+.about h2 {
+  color:black;
+}
+
+.history {
+  padding: 2rem;
+  background-color: #9d6b53;
+  color: black;
+}
+
+.history h2 {
+  color: black;
+}
+.solutions {
+  background-color: #8a5a44;
+  color: black;
+  padding: 2rem;
+  box-shadow: 0 2px5px lightgray;
+}
+
+.solutions h2 {
+  color: black;
+}
+
+.solutions h2, .about h2 {
+  font-size: 1.5rem;
+}
+
+.right-side1,
+.right-side2,
+.right-side3 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+} 
+
+.left-side1,
+.left-side2,
+.left-side3 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right-side1 img,
+.right-side2 img,
+.right-side3 img,
+.left-side1 img,
+.left-side2 img,
+.left-side3 img {
+  width: 300px;
+  height: auto;
+}
+.impacts-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.positive,
+.negative {
+  flex: 1;
+  padding: 1rem;
+  background-color: #3a5555;
+  border-radius: 10px;
 }
